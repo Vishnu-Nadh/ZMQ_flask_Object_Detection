@@ -19,9 +19,9 @@ def index():
 
 
 # video = cv2.VideoCapture("Flask-Server-Folder/vedio/video1.mp4")
-# video = cv2.VideoCapture("Flask-Server-Folder/vedio/sample1.mp4")
 # video = cv2.VideoCapture(0)
-video = cv2.VideoCapture("Flask-Server-Folder/vedio/video2.mp4")
+# video = cv2.VideoCapture("Flask-Server-Folder/vedio/video2.mp4")
+video = cv2.VideoCapture("Flask-Server-Folder/vedio/video4_HQ (720p).mp4")
 
 
 @app.route("/predict", methods=["POST"])
